@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/* OSWALD, ROBOTO CONDENSED, LATO*/
+
+@media screen and (min-width: 1200px) {
+  #leftsidebar {width: 200px; float: left; }
+  .menuitem{background-color: pink;}
+  #main {margin-left: 216px;}
+}
+    
+body
+{
+    margin:0;
+    top:0;
+    background-color: #09132E;
+    background-attachment: fixed;
+    width:100%;
+    
+}
+
+nav{
+	width: 100%;
+	background-color:#09132E;
+	height: 9%;
+  position: fixed;
+    top:0;
+	color: white;
+}
+
+nav .logo
+{
+    float:left;
+}
+
+nav ul{
+	float: left;
+	text-transform:capitalize;
+    color: white;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+color: white;
+}
+
+
+.sp:hover
+{
+    border-bottom: 4px solid #DEC37E;
+}
+
+.mlog1
+{
+   position: absolute;
+    margin-top:-32px;
+    margin-left:105px;
+}
+
+.mlog2
+{
+   position: absolute;
+    margin-top:-36px;
+    margin-left:168px;
+}
+
+.mlog3
+{
+   position: absolute;
+    margin-top:-35px;
+    margin-left:125px;
+}
+
+nav ul li a{
+	display: block;
+	 font-family:"Roboto Condensed";
+	padding: 6px 14px;
+	color: #222;
+	font-size: 18px;
+	text-decoration: none;
+    color: #DEC37E;
+   
+}
+
+nav ul li:hover ul{
+display: block;
+z-index: 1;
+display: block;
+z-index: 10;
+padding-top: 24px ;
+}
+
+nav ul li ul{
+	display: none;
+    position: absolute;
+    background-color:#09132E;
+   z-index: 1;
+   padding: 1px;
+   border-radius: 10px;
+}
+
+nav ul li ul li{
+	width: 220px;
+	border-radius:4px ;
+    
+}
+nav ul li ul li a{
+	padding: 10px 14px;
+}
+nav ul li ul li a:hover{
+	border-left: 5px solid #DEC37E ;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background: #09132E;
+}
+
+.img1
+{
+    width:100%;
+    height: 100%;
+    margin-top:3.1%;
+}
+
+.img1 .link1
+{
+    
+    position: absolute;
+    border:0.1px solid white;
+    margin-top:-20%;
+    margin-left:62%;
+    padding-bottom: 15px; 
+    padding-top: 15px;
+}
+
+.img1 .link1 a
+{
+    text-align: center;
+    padding: 19px 20px 16px 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-family: "Josefin Sans";
+   
+}
+
+.img1 .link1 a:hover
+{
+    background-color:white;
+  color: black;
+
+}
+
+.img2
+{
+    width:100%;
+  height: 100%;
+    margin-top:0.1%;
+}
+
+.img2 .link2
+{
+    position: absolute;
+    border:2px solid black;
+    margin-top:-16%;
+    margin-left:45%;
+    padding-bottom: 15px; 
+    padding-top: 15px;
+}
+
+.img2 .link2 a
+{
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-family: "Josefin Sans";  
+}
+
+.img2 .link2 a:hover
+{
+    background-color:black;
+    color:white;
+}
+
+.img3
+{
+    width:100%;
+    height: 100%;
+}
+
+.img3 .link3
+{
+    position: absolute;
+    border:2px solid black;
+    margin-top:-30%;
+    margin-left:15%;
+    padding-bottom: 15px; 
+    padding-top: 15px;
+}
+
+.img3 .link3 a
+{
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-family: "Josefin Sans";  
+}
+
+.img3 .link3 a:hover
+{
+    background-color:black;
+  color: white;
+}
+
+
+.sale1
+{
+    
+    margin-top:-27.7%;
+    margin-left:38.1%;
+    opacity: 0;
+    animation-name:first;
+	animation-duration:12s;
+	animation-delay:0;
+	animation-iteration-count:infinite;
+}
+
+.sale2
+{
+    margin-top:-27.7%;
+    margin-left:38.1%;
+    opacity: 0;
+    animation-name:second;
+	animation-duration:12s;
+	animation-delay:0;
+	animation-iteration-count:infinite;
+}
+
+.sale3
+{
+    
+    margin-top:-27.7%;
+    margin-left:38.1%;
+    opacity: 0;
+     animation-name:third;
+	animation-duration:12s;
+	animation-delay:0;
+	animation-iteration-count:infinite;
+}
+
+@keyframes first
+{
+     0% {opacity: 0.5;}
+    33.33333%{opacity: 1;}
+    66.66666%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@keyframes second
+{
+      0% {opacity: 0;}
+    33.33333%{opacity: 0;}
+    66.66666%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@keyframes third
+{
+     0% {opacity: 0;}
+    33.33333%{opacity: 0;}
+    66.66666%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+footer
+{
+    position: static;
+    background-attachment:scroll;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+
+.foot
+{
+    background:#09132E;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    max-width:100%;
+    bottom: 0;
+    width: 100%;
+    height:300px;
+    max-height: 100%;
+    font-family:"Roboto Condensed";
+     line-height: 29px;      
+    border-radius: 0px;
+}
+
+.foot .logo2
+{
+    position: absolute;
+    right: 85%;
+    top:15%;
+    width:13%;
+}
+
+.foot .col1
+{
+    position: absolute;
+    left:19%;
+    top:9%;
+    text-align: left;
+    color:white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.foot .col1 .img6a, .img6b, .img6c, .img6d
+{
+    position:absolute;
+    margin-top:5px;
+    left:120px;
+}
+
+.foot .col2
+{
+    
+    position: absolute;
+    left:41%;
+    top:9%;
+    text-align: left;
+    color:white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.foot .col2 .img7a, .img7b, .img7c, .img7d
+{
+    position:absolute;
+    margin-top:5px;
+    left:120px;
+}
+
+
+.col4 input[type=text]  {
+  width: 70%;
+  padding: 17px 15px;
+  display: inline-block;
+  border: none;
+   border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  box-sizing: border-box;
+  background: black;
+  color: #DEC37E;  
+    font-size: 17px;
+    font-family: "Roboto Condensed";
+}
+
+
+.col4 input[type=submit] {
+  width: 24%;
+  left:-2%;
+  background-color:#DEC37E;
+  color: black;
+  padding: 17px 20px 17px 20px;
+  border: none;  
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  cursor: pointer;
+  position:relative;
+  font-size: 17px;
+    top: 0px;
+  font-family: "Roboto Condensed";
+}
+ 
+.col4    
+{    
+  position:absolute;
+   left:60%;
+    top:-11%;
+  padding: 1.5%;
+  width:30%;
+    
+}
+
+.foot .col4 .txt1   /* STAY CONNECTED */
+{
+    color:#DEC37E;
+    text-align: left;
+    position: relative;
+    bottom: -39px;
+    font-size: 18px;
+    left:2%;
+
+}
+
+.foot .col4 .txt2  /* PARA */
+{
+    position: relative;
+    color:white;
+    text-align: left;
+    bottom: -35px;
+    max-width:98%;
+    font-size: 18px;
+    left:2%;
+    
+}
+
+
+
